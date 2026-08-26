@@ -1,0 +1,39 @@
+Error while loading conda entry point: conda-libmamba-solver (libarchive.so.19: cannot open shared object file: No such file or directory)
+NGPUS = 1
+Inference the ANN_CNN model on global horizontal and stratosphere_update vertical model, with features uvthetaw and dropout=0.0.
+Test files = ['/scratch/users/ag4680/coarsegrained_ifs_gwmf_helmholtz/NDJF/troposphere_and_stratosphere_1x1_inputfeatures_u_v_theta_w_uw_vw_era5_training_data_hourly_constant_mu_sigma_scaling.nc']
+Model created. 
+ --- model size: 64.67 MBs,
+ --- Num params: 16.928 mil. 
+Output NC file: /scratch/users/ag4680/gw_inference_ncfiles/TLIFS_inference_K2_TLIFS_ann_cnn_K2_1x1_era5_ifs_global_stratosphere_update_uvthetaw_mseloss_train_epoch200_testedonIFS.nc
+Initiating inference
+Inference complete
+NGPUS = 1
+Inference the Attention UNet model on global horizontal and stratosphere_update vertical model, with features uvthetaw and dropout=0.0.
+Test files = ['/scratch/users/ag4680/coarsegrained_ifs_gwmf_helmholtz/NDJF/troposphere_and_stratosphere_1x1_inputfeatures_u_v_theta_w_uw_vw_era5_training_data_hourly_constant_mu_sigma_scaling.nc']
+---244
+Model created. 
+ --- model size: 144.85 MBs,
+ --- Num params: 37.955 mil. 
+Output NC file: /scratch/users/ag4680/gw_inference_ncfiles/TLIFS_inference_K2_TLIFS_attnunet_K2_era5_ifs_global_stratosphere_update_uvthetaw_mseloss_train_epoch200_testedonIFS.nc
+Initiating inference
+Inference complete
+NGPUS = 1
+Inference the ANN_CNN model on global horizontal and stratosphere_update vertical model, with features uvthetaw and dropout=0.0.
+Test files = ['/scratch/users/ag4680/coarsegrained_ifs_gwmf_helmholtz/NDJF/troposphere_and_stratosphere_1x1_inputfeatures_u_v_theta_w_uw_vw_era5_training_data_hourly_constant_mu_sigma_scaling.nc']
+Model created. 
+ --- model size: 64.67 MBs,
+ --- Num params: 16.928 mil. 
+Output NC file: /scratch/users/ag4680/gw_inference_ncfiles/TLIFS_inference_K3_TLIFS_ann_cnn_K3_1x1_era5_ifs_global_stratosphere_update_uvthetaw_mseloss_train_epoch200_testedonIFS.nc
+Initiating inference
+Inference complete
+NGPUS = 1
+Inference the Attention UNet model on global horizontal and stratosphere_update vertical model, with features uvthetaw and dropout=0.0.
+Test files = ['/scratch/users/ag4680/coarsegrained_ifs_gwmf_helmholtz/NDJF/troposphere_and_stratosphere_1x1_inputfeatures_u_v_theta_w_uw_vw_era5_training_data_hourly_constant_mu_sigma_scaling.nc']
+---244
+Model created. 
+ --- model size: 144.85 MBs,
+ --- Num params: 37.955 mil. 
+Output NC file: /scratch/users/ag4680/gw_inference_ncfiles/TLIFS_inference_K3_TLIFS_attnunet_K3_era5_ifs_global_stratosphere_update_uvthetaw_mseloss_train_epoch200_testedonIFS.nc
+Initiating inference
+Inference complete

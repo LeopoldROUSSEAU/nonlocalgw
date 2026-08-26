@@ -1,0 +1,438 @@
+NGPUS = 0
+Training the L93 model: Training the 1x1 ANN-CNNs, global horizontal and global vertical model with features uvthetaw with min-max learning rates 0.0001 to 0.0005 for a CyclicLR, and dropout=0.1.
+
+L93 coupling: Training the global horizontal and global vertical model, with features uvthetaw with min-max learning rates 0.0001 to 0.0005, and dropout=0.1. Starting from epoch 1. Training on years [2010 2012 2014] and testing on years [2015].
+
+Defined input files
+train batch size = 5
+validation batch size = 5
+NGPUS = 0
+Training the L93 model: Training the 1x1 ANN-CNNs, global horizontal and global vertical model with features uvthetaw with min-max learning rates 0.0001 to 0.0005 for a CyclicLR, and dropout=0.1.
+
+NGPUS = 0
+Training the L93 model: Training the 1x1 ANN-CNNs, global horizontal and global vertical model with features uvthetaw with min-max learning rates 0.0001 to 0.0005 for a CyclicLR, and dropout=0.1.
+
+L93 coupling: Training the global horizontal and global vertical model, with features uvthetaw with min-max learning rates 0.0001 to 0.0005, and dropout=0.1. Starting from epoch 1. Training on years ['x02.h5' 'x03.h5'] and testing on years ['x04.h5'].
+
+Defined input files
+train batch size = 5
+validation batch size = 5
+NGPUS = 0
+Training the L93 model: Training the 1x1 ANN-CNNs, global horizontal and global vertical model with features uvthetaw with min-max learning rates 0.0001 to 0.0005 for a CyclicLR, and dropout=0.1.
+
+L93 coupling: Training the global horizontal and global vertical model, with features uvthetaw with min-max learning rates 0.0001 to 0.0005, and dropout=0.1. Starting from epoch 1. Training on years ['x02.h5' 'x03.h5'] and testing on years ['x04.h5'].
+
+Defined input files
+train batch size = 5
+validation batch size = 5
+NGPUS = 0
+Training the L93 model: Training the 1x1 ANN-CNNs, global horizontal and global vertical model with features uvthetaw with min-max learning rates 0.0001 to 0.0005 for a CyclicLR, and dropout=0.1.
+
+L93 coupling: Training the global horizontal and global vertical model, with features uvthetaw with min-max learning rates 0.0001 to 0.0005, and dropout=0.1. Starting from epoch 1. Training on years ['x02.h5' 'x03.h5'] and testing on years ['x04.h5'].
+
+Defined input files
+train batch size = 5
+validation batch size = 5
+NGPUS = 0
+Training the L93 model: Training the 1x1 ANN-CNNs, global horizontal and global vertical model with features uvthetaw with min-max learning rates 0.0001 to 0.0005 for a CyclicLR, and dropout=0.1.
+
+L93 coupling: Training the global horizontal and global vertical model, with features uvthetaw with min-max learning rates 0.0001 to 0.0005, and dropout=0.1. Starting from epoch 1. Training on years ['x02.h5' 'x03.h5'] and testing on years ['x04.h5'].
+
+Defined input files
+train batch size = 5
+validation batch size = 5
+NGPUS = 0
+Training the L93 model: Training the 1x1 ANN-CNNs, global horizontal and global vertical model with features uvthetaw with min-max learning rates 0.0001 to 0.0005 for a CyclicLR, and dropout=0.1.
+
+L93 coupling: Training the global horizontal and global vertical model, with features uvthetaw with min-max learning rates 0.0001 to 0.0005, and dropout=0.1. Starting from epoch 1. Training on years ['x02.h5' 'x03.h5'] and testing on years ['x04.h5'].
+
+Defined input files
+train batch size = 5
+validation batch size = 5
+Input dim: 375, hidden dim: 1500, output dim: 186
+Model created. 
+ --- model size: 38.90 MBs,
+ --- Num params: 10.198 mil. 
+NGPUS = 0
+Training the L93 model: Training the 1x1 ANN-CNNs, global horizontal and global vertical model with features uvthetaw with min-max learning rates 0.0001 to 0.0005 for a CyclicLR, and dropout=0.1.
+
+L93 coupling: Training the global horizontal and global vertical model, with features uvthetaw with min-max learning rates 0.0001 to 0.0005, and dropout=0.1. Starting from epoch 1. Training on years ['x02.h5' 'x03.h5'] and testing on years ['x04.h5'].
+
+Defined input files
+train batch size = 5
+validation batch size = 5
+Input dim: 375, hidden dim: 1500, output dim: 186
+Model created. 
+ --- model size: 38.90 MBs,
+ --- Num params: 10.198 mil. 
+NGPUS = 0
+Training the L93 model: Training the 1x1 ANN-CNNs, global horizontal and global vertical model with features uvthetaw with min-max learning rates 0.0001 to 0.0005 for a CyclicLR, and dropout=0.1.
+
+L93 coupling: Training the global horizontal and global vertical model, with features uvthetaw with min-max learning rates 0.0001 to 0.0005, and dropout=0.1. Starting from epoch 1. Training on years ['x02.h5' 'x03.h5'] and testing on years ['x04.h5'].
+
+Defined input files
+train batch size = 5
+validation batch size = 5
+Input dim: 375, hidden dim: 1500, output dim: 186
+Model created. 
+ --- model size: 38.90 MBs,
+ --- Num params: 10.198 mil. 
+NGPUS = 0
+Training the L93 model: Training the 1x1 ANN-CNNs, global horizontal and global vertical model with features uvthetaw with min-max learning rates 0.0001 to 0.0005 for a CyclicLR, and dropout=0.1.
+
+L93 coupling: Training the global horizontal and global vertical model, with features uvthetaw with min-max learning rates 0.0001 to 0.0005, and dropout=0.1. Starting from epoch 1. Training on years ['x02.h5' 'x03.h5'] and testing on years ['x04.h5'].
+
+Defined input files
+train batch size = 5
+validation batch size = 5
+Input dim: 375, hidden dim: 1500, output dim: 186
+Model created. 
+ --- model size: 38.90 MBs,
+ --- Num params: 10.198 mil. 
+NGPUS = 0
+Training the L93 model: Training the 1x1 ANN-CNNs, global horizontal and global vertical model with features uvthetaw with min-max learning rates 0.0001 to 0.0005 for a CyclicLR, and dropout=0.1.
+
+L93 coupling: Training the global horizontal and global vertical model, with features uvthetaw with min-max learning rates 0.0001 to 0.0005, and dropout=0.1. Starting from epoch 1. Training on years ['x02.h5' 'x03.h5'] and testing on years ['x04.h5'].
+
+Defined input files
+train batch size = 5
+validation batch size = 5
+NGPUS = 0
+Training the L93 model: Training the 1x1 ANN-CNNs, global horizontal and global vertical model with features uvthetaw with min-max learning rates 0.0001 to 0.0005 for a CyclicLR, and dropout=0.1.
+
+L93 coupling: Training the global horizontal and global vertical model, with features uvthetaw with min-max learning rates 0.0001 to 0.0005, and dropout=0.1. Starting from epoch 1. Training on years ['x02.h5' 'x03.h5'] and testing on years ['x04.h5'].
+
+Defined input files
+train batch size = 5
+validation batch size = 5
+NGPUS = 0
+Training the L93 model: Training the 1x1 ANN-CNNs, global horizontal and global vertical model with features uvthetaw with min-max learning rates 0.0001 to 0.0005 for a CyclicLR, and dropout=0.1.
+
+L93 coupling: Training the global horizontal and global vertical model, with features uvthetaw with min-max learning rates 0.0001 to 0.0005, and dropout=0.1. Starting from epoch 1. Training on years ['x02.h5' 'x03.h5'] and testing on years ['x04.h5'].
+
+Defined input files
+train batch size = 5
+validation batch size = 5
+NGPUS = 0
+Training the L93 model: Training the 1x1 ANN-CNNs, global horizontal and global vertical model with features uvthetaw with min-max learning rates 0.0001 to 0.0005 for a CyclicLR, and dropout=0.1.
+
+L93 coupling: Training the global horizontal and global vertical model, with features uvthetaw with min-max learning rates 0.0001 to 0.0005, and dropout=0.1. Starting from epoch 1. Training on years ['x02.h5' 'x03.h5'] and testing on years ['x04.h5'].
+
+Defined input files
+train batch size = 5
+validation batch size = 5
+NGPUS = 0
+Training the L93 model: Training the 1x1 ANN-CNNs, global horizontal and global vertical model with features uvthetaw with min-max learning rates 0.0001 to 0.0005 for a CyclicLR, and dropout=0.1.
+
+L93 coupling: Training the global horizontal and global vertical model, with features uvthetaw with min-max learning rates 0.0001 to 0.0005, and dropout=0.1. Starting from epoch 1. Training on years ['x02.h5' 'x03.h5'] and testing on years ['x04.h5'].
+
+Defined input files
+train batch size = 5
+validation batch size = 5
+NGPUS = 0
+Training the L93 model: Training the 1x1 ANN-CNNs, global horizontal and global vertical model with features uvthetaw with min-max learning rates 0.0001 to 0.0005 for a CyclicLR, and dropout=0.1.
+
+L93 coupling: Training the global horizontal and global vertical model, with features uvthetaw with min-max learning rates 0.0001 to 0.0005, and dropout=0.1. Starting from epoch 1. Training on years ['x02.h5' 'x03.h5'] and testing on years ['x04.h5'].
+
+Defined input files
+train batch size = 5
+validation batch size = 5
+NGPUS = 0
+Training the L93 model: Training the 1x1 ANN-CNNs, global horizontal and global vertical model with features uvthetaw with min-max learning rates 0.0001 to 0.0005 for a CyclicLR, and dropout=0.1.
+
+L93 coupling: Training the global horizontal and global vertical model, with features uvthetaw with min-max learning rates 0.0001 to 0.0005, and dropout=0.1. Starting from epoch 1. Training on years ['x02.h5' 'x03.h5'] and testing on years ['x04.h5'].
+
+Defined input files
+train batch size = 5
+validation batch size = 5
+NGPUS = 0
+Training the L93 model: Training the 1x1 ANN-CNNs, global horizontal and global vertical model with features uvthetaw with min-max learning rates 0.0001 to 0.0005 for a CyclicLR, and dropout=0.1.
+
+L93 coupling: Training the global horizontal and global vertical model, with features uvthetaw with min-max learning rates 0.0001 to 0.0005, and dropout=0.1. Starting from epoch 1. Training on years ['x02.h5' 'x03.h5'] and testing on years ['x04.h5'].
+
+Defined input files
+train batch size = 5
+validation batch size = 5
+NGPUS = 0
+Training the L93 model: Training the 1x1 ANN-CNNs, global horizontal and global vertical model with features uvthetaw with min-max learning rates 0.0001 to 0.0005 for a CyclicLR, and dropout=0.1.
+
+L93 coupling: Training the global horizontal and global vertical model, with features uvthetaw with min-max learning rates 0.0001 to 0.0005, and dropout=0.1. Starting from epoch 1. Training on years ['x02.h5' 'x03.h5'] and testing on years ['x04.h5'].
+
+Defined input files
+train batch size = 5
+validation batch size = 5
+NGPUS = 0
+Training the L93 model: Training the 1x1 ANN-CNNs, global horizontal and global vertical model with features uvthetaw with min-max learning rates 0.0001 to 0.0005 for a CyclicLR, and dropout=0.1.
+
+L93 coupling: Training the global horizontal and global vertical model, with features uvthetaw with min-max learning rates 0.0001 to 0.0005, and dropout=0.1. Starting from epoch 1. Training on years ['x02.h5' 'x03.h5'] and testing on years ['x04.h5'].
+
+Defined input files
+train batch size = 5
+validation batch size = 5
+NGPUS = 0
+Training the L93 model: Training the 1x1 ANN-CNNs, global horizontal and global vertical model with features uvthetaw with min-max learning rates 0.0001 to 0.0005 for a CyclicLR, and dropout=0.1.
+
+L93 coupling: Training the global horizontal and global vertical model, with features uvthetaw with min-max learning rates 0.0001 to 0.0005, and dropout=0.1. Starting from epoch 1. Training on years ['x02.h5' 'x03.h5'] and testing on years ['x04.h5'].
+
+Defined input files
+train batch size = 5
+validation batch size = 5
+NGPUS = 0
+Training the L93 model: Training the 1x1 ANN-CNNs, global horizontal and global vertical model with features uvthetaw with min-max learning rates 0.0001 to 0.0005 for a CyclicLR, and dropout=0.1.
+
+L93 coupling: Training the global horizontal and global vertical model, with features uvthetaw with min-max learning rates 0.0001 to 0.0005, and dropout=0.1. Starting from epoch 1. Training on years ['x02.h5' 'x03.h5'] and testing on years ['x04.h5'].
+
+Defined input files
+train batch size = 5
+validation batch size = 5
+NGPUS = 0
+Training the L93 model: Training the 1x1 ANN-CNNs, global horizontal and global vertical model with features uvthetaw with min-max learning rates 0.0001 to 0.0005 for a CyclicLR, and dropout=0.1.
+
+L93 coupling: Training the global horizontal and global vertical model, with features uvthetaw with min-max learning rates 0.0001 to 0.0005, and dropout=0.1. Starting from epoch 1. Training on years ['x02.h5' 'x03.h5'] and testing on years ['x04.h5'].
+
+Defined input files
+train batch size = 5
+validation batch size = 5
+NGPUS = 0
+Training the L93 model: Training the 1x1 ANN-CNNs, global horizontal and global vertical model with features uvthetaw with min-max learning rates 0.0001 to 0.0005 for a CyclicLR, and dropout=0.1.
+
+L93 coupling: Training the global horizontal and global vertical model, with features uvthetaw with min-max learning rates 0.0001 to 0.0005, and dropout=0.1. Starting from epoch 1. Training on years ['x02.h5' 'x03.h5'] and testing on years ['x04.h5'].
+
+Defined input files
+train batch size = 5
+validation batch size = 5
+NGPUS = 0
+Training the L93 model: Training the 1x1 ANN-CNNs, global horizontal and global vertical model with features uvthetaw with min-max learning rates 0.0001 to 0.0005 for a CyclicLR, and dropout=0.1.
+
+L93 coupling: Training the global horizontal and global vertical model, with features uvthetaw with min-max learning rates 0.0001 to 0.0005, and dropout=0.1. Starting from epoch 1. Training on years ['x02.h5' 'x03.h5'] and testing on years ['x04.h5'].
+
+Defined input files
+train batch size = 5
+validation batch size = 5
+Input dim: 375, hidden dim: 1500, output dim: 186
+Model created. 
+ --- model size: 38.90 MBs,
+ --- Num params: 10.198 mil. 
+NGPUS = 0
+Training the L93 model: Training the 1x1 ANN-CNNs, global horizontal and global vertical model with features uvthetaw with min-max learning rates 0.0001 to 0.0005 for a CyclicLR, and dropout=0.1.
+
+L93 coupling: Training the global horizontal and global vertical model, with features uvthetaw with min-max learning rates 0.0001 to 0.0005, and dropout=0.1. Starting from epoch 1. Training on years ['x02.h5' 'x03.h5'] and testing on years ['x04.h5'].
+
+Defined input files
+train batch size = 5
+validation batch size = 5
+Input dim: 381, hidden dim: 1524, output dim: 186
+Model created. 
+ --- model size: 40.11 MBs,
+ --- Num params: 10.515 mil. 
+NGPUS = 0
+Training the L93 model: Training the 1x1 ANN-CNNs, global horizontal and global vertical model with features uvthetaw with min-max learning rates 0.0001 to 0.0005 for a CyclicLR, and dropout=0.1.
+
+L93 coupling: Training the global horizontal and global vertical model, with features uvthetaw with min-max learning rates 0.0001 to 0.0005, and dropout=0.1. Starting from epoch 1. Training on years ['x02.h5' 'x03.h5'] and testing on years ['x04.h5'].
+
+Defined input files
+train batch size = 5
+validation batch size = 5
+Input dim: 381, hidden dim: 1524, output dim: 186
+Model created. 
+ --- model size: 40.11 MBs,
+ --- Num params: 10.515 mil. 
+NGPUS = 0
+Training the L93 model: Training the 1x1 ANN-CNNs, global horizontal and global vertical model with features uvthetaw with min-max learning rates 0.0001 to 0.0005 for a CyclicLR, and dropout=0.1.
+
+L93 coupling: Training the global horizontal and global vertical model, with features uvthetaw with min-max learning rates 0.0001 to 0.0005, and dropout=0.1. Starting from epoch 1. Training on years ['x02.h5' 'x03.h5'] and testing on years ['x04.h5'].
+
+Defined input files
+train batch size = 1
+validation batch size = 1
+Input dim: 381, hidden dim: 1524, output dim: 186
+Model created. 
+ --- model size: 40.11 MBs,
+ --- Num params: 10.515 mil. 
+NGPUS = 0
+Training the L93 model: Training the 1x1 ANN-CNNs, global horizontal and global vertical model with features uvthetaw with min-max learning rates 0.0001 to 0.0005 for a CyclicLR, and dropout=0.1.
+
+L93 coupling: Training the global horizontal and global vertical model, with features uvthetaw with min-max learning rates 0.0001 to 0.0005, and dropout=0.1. Starting from epoch 1. Training on years ['x02.h5' 'x03.h5'] and testing on years ['x04.h5'].
+
+Defined input files
+train batch size = 1
+validation batch size = 1
+Input dim: 381, hidden dim: 1524, output dim: 186
+Model created. 
+ --- model size: 40.11 MBs,
+ --- Num params: 10.515 mil. 
+NGPUS = 0
+Training the L93 model: Training the 1x1 ANN-CNNs, global horizontal and global vertical model with features uvthetaw with min-max learning rates 0.0001 to 0.0005 for a CyclicLR, and dropout=0.1.
+
+L93 coupling: Training the global horizontal and global vertical model, with features uvthetaw with min-max learning rates 0.0001 to 0.0005, and dropout=0.1. Starting from epoch 1. Training on years ['x02.h5' 'x03.h5'] and testing on years ['x04.h5'].
+
+Defined input files
+train batch size = 3
+validation batch size = 3
+Input dim: 381, hidden dim: 1524, output dim: 186
+Model created. 
+ --- model size: 40.11 MBs,
+ --- Num params: 10.515 mil. 
+NGPUS = 0
+Training the L93 model: Training the 1x1 ANN-CNNs, global horizontal and global vertical model with features uvthetaw with min-max learning rates 0.0001 to 0.0005 for a CyclicLR, and dropout=0.1.
+
+L93 coupling: Training the global horizontal and global vertical model, with features uvthetaw with min-max learning rates 0.0001 to 0.0005, and dropout=0.1. Starting from epoch 1. Training on years ['x02.h5' 'x03.h5'] and testing on years ['x04.h5'].
+
+Defined input files
+train batch size = 5
+validation batch size = 5
+Input dim: 381, hidden dim: 1524, output dim: 186
+Model created. 
+ --- model size: 40.11 MBs,
+ --- Num params: 10.515 mil. 
+NGPUS = 1
+Training the L93 model: Training the 1x1 ANN-CNNs, global horizontal and global vertical model with features uvthetaw with min-max learning rates 0.0001 to 0.0005 for a CyclicLR, and dropout=0.1.
+
+L93 coupling: Training the global horizontal and global vertical model, with features uvthetaw with min-max learning rates 0.0001 to 0.0005, and dropout=0.1. Starting from epoch 1. Training on years ['x02.h5' 'x03.h5'] and testing on years ['x04.h5'].
+
+Defined input files
+train batch size = 5
+validation batch size = 5
+Input dim: 381, hidden dim: 1524, output dim: 186
+Model created. 
+ --- model size: 40.11 MBs,
+ --- Num params: 10.515 mil. 
+Epoch 1, 1/100, training mseloss: 0.269375, testing mseloss: 0.278423
+NGPUS = 1
+Training the L93 model: Training the 1x1 ANN-CNNs, global horizontal and global vertical model with features uvthetaw with min-max learning rates 0.0001 to 0.0005 for a CyclicLR, and dropout=0.1.
+
+L93 coupling: Training the global horizontal and global vertical model, with features uvthetaw with min-max learning rates 0.0001 to 0.0005, and dropout=0.1. Starting from epoch 1. Training on years ['x02.h5' 'x03.h5'] and testing on years ['x04.h5'].
+
+Defined input files
+train batch size = 5
+validation batch size = 5
+Input dim: 381, hidden dim: 1524, output dim: 186
+Model created. 
+ --- model size: 40.11 MBs,
+ --- Num params: 10.515 mil. 
+Epoch 1, 1/100, training mseloss: 0.269375, testing mseloss: 0.278423
+NGPUS = 1
+Training the L93 model: Training the 1x1 ANN-CNNs, global horizontal and global vertical model with features uvthetaw with min-max learning rates 0.0001 to 0.0005 for a CyclicLR, and dropout=0.1.
+
+L93 coupling: Training the global horizontal and global vertical model, with features uvthetaw with min-max learning rates 0.0001 to 0.0005, and dropout=0.1. Starting from epoch 1. Training on years ['x02.h5' 'x03.h5'] and testing on years ['x04.h5'].
+
+Defined input files
+train batch size = 5
+validation batch size = 5
+Input dim: 381, hidden dim: 1524, output dim: 186
+Model created. 
+ --- model size: 40.11 MBs,
+ --- Num params: 10.515 mil. 
+Epoch 1, 1/100, training mseloss: 0.269375, testing mseloss: 0.278423
+NGPUS = 1
+Training the L93 model: Training the 1x1 ANN-CNNs, global horizontal and global vertical model with features uvthetaw with min-max learning rates 0.0001 to 0.0005 for a CyclicLR, and dropout=0.1.
+
+L93 coupling: Training the global horizontal and global vertical model, with features uvthetaw with min-max learning rates 0.0001 to 0.0005, and dropout=0.1. Starting from epoch 1. Training on years ['x02.h5' 'x03.h5'] and testing on years ['x04.h5'].
+
+Defined input files
+train batch size = 5
+validation batch size = 5
+Input dim: 381, hidden dim: 1524, output dim: 186
+Model created. 
+ --- model size: 40.11 MBs,
+ --- Num params: 10.515 mil. 
+Epoch 1, 1/100, training mseloss: 0.269375, testing mseloss: 0.278423
+Epoch 2, 2/100, training mseloss: 0.244160, testing mseloss: 0.260273
+Epoch 3, 3/100, training mseloss: 0.231810, testing mseloss: 0.246707
+Epoch 4, 4/100, training mseloss: 0.224938, testing mseloss: 0.246026
+Epoch 5, 5/100, training mseloss: 0.220774, testing mseloss: 0.246831
+Epoch 6, 6/100, training mseloss: 0.217471, testing mseloss: 0.238941
+Epoch 7, 7/100, training mseloss: 0.214310, testing mseloss: 0.233543
+Epoch 8, 8/100, training mseloss: 0.211472, testing mseloss: 0.233333
+Epoch 9, 9/100, training mseloss: 0.209362, testing mseloss: 0.229926
+Epoch 10, 10/100, training mseloss: 0.206801, testing mseloss: 0.223338
+Epoch 11, 11/100, training mseloss: 0.205020, testing mseloss: 0.222065
+Epoch 12, 12/100, training mseloss: 0.203361, testing mseloss: 0.221024
+Epoch 13, 13/100, training mseloss: 0.201793, testing mseloss: 0.218851
+Epoch 14, 14/100, training mseloss: 0.200247, testing mseloss: 0.217278
+Epoch 15, 15/100, training mseloss: 0.199152, testing mseloss: 0.217329
+Epoch 16, 16/100, training mseloss: 0.198208, testing mseloss: 0.215779
+Epoch 17, 17/100, training mseloss: 0.196499, testing mseloss: 0.214134
+Epoch 18, 18/100, training mseloss: 0.195557, testing mseloss: 0.214943
+Epoch 19, 19/100, training mseloss: 0.194653, testing mseloss: 0.213455
+Epoch 20, 20/100, training mseloss: 0.193926, testing mseloss: 0.212311
+Epoch 21, 21/100, training mseloss: 0.192410, testing mseloss: 0.212132
+Epoch 22, 22/100, training mseloss: 0.191843, testing mseloss: 0.213854
+Epoch 23, 23/100, training mseloss: 0.191363, testing mseloss: 0.211321
+Epoch 24, 24/100, training mseloss: 0.190430, testing mseloss: 0.209577
+Epoch 25, 25/100, training mseloss: 0.189004, testing mseloss: 0.211098
+Epoch 26, 26/100, training mseloss: 0.188416, testing mseloss: 0.211073
+Epoch 27, 27/100, training mseloss: 0.188447, testing mseloss: 0.210131
+Epoch 28, 28/100, training mseloss: 0.187114, testing mseloss: 0.208947
+Epoch 29, 29/100, training mseloss: 0.186151, testing mseloss: 0.210447
+Epoch 30, 30/100, training mseloss: 0.185747, testing mseloss: 0.209619
+Epoch 31, 31/100, training mseloss: 0.185614, testing mseloss: 0.208002
+Epoch 32, 32/100, training mseloss: 0.184520, testing mseloss: 0.208765
+Epoch 33, 33/100, training mseloss: 0.183824, testing mseloss: 0.209664
+Epoch 34, 34/100, training mseloss: 0.183663, testing mseloss: 0.208278
+Epoch 35, 35/100, training mseloss: 0.183405, testing mseloss: 0.206786
+Epoch 36, 36/100, training mseloss: 0.182394, testing mseloss: 0.209451
+Epoch 37, 37/100, training mseloss: 0.181894, testing mseloss: 0.208736
+Epoch 38, 38/100, training mseloss: 0.182141, testing mseloss: 0.208103
+Epoch 39, 39/100, training mseloss: 0.181388, testing mseloss: 0.206952
+Epoch 40, 40/100, training mseloss: 0.180499, testing mseloss: 0.208371
+Epoch 41, 41/100, training mseloss: 0.180231, testing mseloss: 0.207749
+Epoch 42, 42/100, training mseloss: 0.180460, testing mseloss: 0.207004
+Epoch 43, 43/100, training mseloss: 0.179563, testing mseloss: 0.206007
+Epoch 44, 44/100, training mseloss: 0.178988, testing mseloss: 0.207476
+Epoch 45, 45/100, training mseloss: 0.178840, testing mseloss: 0.206343
+Epoch 46, 46/100, training mseloss: 0.178985, testing mseloss: 0.205095
+Epoch 47, 47/100, training mseloss: 0.178181, testing mseloss: 0.206165
+Epoch 48, 48/100, training mseloss: 0.177842, testing mseloss: 0.206422
+Epoch 49, 49/100, training mseloss: 0.177951, testing mseloss: 0.205559
+Epoch 50, 50/100, training mseloss: 0.177814, testing mseloss: 0.205176
+Epoch 51, 51/100, training mseloss: 0.177004, testing mseloss: 0.205649
+Epoch 52, 52/100, training mseloss: 0.176738, testing mseloss: 0.205149
+Epoch 53, 53/100, training mseloss: 0.177137, testing mseloss: 0.205098
+Epoch 54, 54/100, training mseloss: 0.176480, testing mseloss: 0.203806
+Epoch 55, 55/100, training mseloss: 0.175976, testing mseloss: 0.204776
+Epoch 56, 56/100, training mseloss: 0.175819, testing mseloss: 0.203867
+Epoch 57, 57/100, training mseloss: 0.176099, testing mseloss: 0.203462
+Epoch 58, 58/100, training mseloss: 0.175486, testing mseloss: 0.203927
+Epoch 59, 59/100, training mseloss: 0.175235, testing mseloss: 0.204126
+Epoch 60, 60/100, training mseloss: 0.175187, testing mseloss: 0.204017
+Epoch 61, 61/100, training mseloss: 0.175301, testing mseloss: 0.202791
+Epoch 62, 62/100, training mseloss: 0.174706, testing mseloss: 0.203865
+Epoch 63, 63/100, training mseloss: 0.174479, testing mseloss: 0.203641
+Epoch 64, 64/100, training mseloss: 0.174700, testing mseloss: 0.203513
+Epoch 65, 65/100, training mseloss: 0.174297, testing mseloss: 0.203132
+Epoch 66, 66/100, training mseloss: 0.173818, testing mseloss: 0.202626
+Epoch 67, 67/100, training mseloss: 0.173626, testing mseloss: 0.203082
+Epoch 68, 68/100, training mseloss: 0.173848, testing mseloss: 0.202336
+Epoch 69, 69/100, training mseloss: 0.173391, testing mseloss: 0.202085
+Epoch 70, 70/100, training mseloss: 0.173123, testing mseloss: 0.202365
+Epoch 71, 71/100, training mseloss: 0.173074, testing mseloss: 0.201999
+Epoch 72, 72/100, training mseloss: 0.173331, testing mseloss: 0.201700
+Epoch 73, 73/100, training mseloss: 0.172870, testing mseloss: 0.202354
+Epoch 74, 74/100, training mseloss: 0.172654, testing mseloss: 0.202642
+Epoch 75, 75/100, training mseloss: 0.172788, testing mseloss: 0.202990
+Epoch 76, 76/100, training mseloss: 0.172783, testing mseloss: 0.202032
+Epoch 77, 77/100, training mseloss: 0.172237, testing mseloss: 0.202504
+Epoch 78, 78/100, training mseloss: 0.171997, testing mseloss: 0.202225
+Epoch 79, 79/100, training mseloss: 0.172253, testing mseloss: 0.202039
+Epoch 80, 80/100, training mseloss: 0.171830, testing mseloss: 0.201058
+Epoch 81, 81/100, training mseloss: 0.171414, testing mseloss: 0.201842
+Epoch 82, 82/100, training mseloss: 0.171345, testing mseloss: 0.201630
+Epoch 83, 83/100, training mseloss: 0.171541, testing mseloss: 0.200720
+Epoch 84, 84/100, training mseloss: 0.171155, testing mseloss: 0.200881
+Epoch 85, 85/100, training mseloss: 0.170929, testing mseloss: 0.201673
+Epoch 86, 86/100, training mseloss: 0.170982, testing mseloss: 0.201231
+Epoch 87, 87/100, training mseloss: 0.171136, testing mseloss: 0.200531
+Epoch 88, 88/100, training mseloss: 0.170640, testing mseloss: 0.201948
+Epoch 89, 89/100, training mseloss: 0.170473, testing mseloss: 0.201606
+Epoch 90, 90/100, training mseloss: 0.170634, testing mseloss: 0.200805
+Epoch 91, 91/100, training mseloss: 0.170393, testing mseloss: 0.200770
+Epoch 92, 92/100, training mseloss: 0.170067, testing mseloss: 0.201344
+Epoch 93, 93/100, training mseloss: 0.169931, testing mseloss: 0.200895
+Epoch 94, 94/100, training mseloss: 0.169985, testing mseloss: 0.200055
+Epoch 95, 95/100, training mseloss: 0.169676, testing mseloss: 0.200354
+Epoch 96, 96/100, training mseloss: 0.169519, testing mseloss: 0.201070
+Epoch 97, 97/100, training mseloss: 0.169433, testing mseloss: 0.200783
+Epoch 98, 98/100, training mseloss: 0.169595, testing mseloss: 0.199539
+Epoch 99, 99/100, training mseloss: 0.169246, testing mseloss: 0.200520
+Epoch 100, 100/100, training mseloss: 0.169032, testing mseloss: 0.200986

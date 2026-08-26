@@ -1,0 +1,10 @@
+NGPUS = 1
+Inference the Attention UNet model on global horizontal and stratosphere_only vertical model, with features uvthetaw and dropout=0.0.
+Test files = ['/scratch/users/ag4680/coarsegrained_ifs_gwmf_helmholtz/NDJF/stratosphere_only_1x1_inputfeatures_u_v_theta_w_N2_uw_vw_era5_training_data_hourly_constant_mu_sigma_scaling.nc']
+Model created. 
+ --- model size: 144.30 MBs,
+ --- Num params: 37.812 mil. 
+Output NC file: /scratch/users/ag4680/gw_inference_ncfiles/TLIFS_inference_TLIFS_attnunet_era5_ifs_global_stratosphere_only_uvthetaw_mseloss_train_epoch100_testedonIFS.nc
+Initiating inference
+Minibatch=0, count=0, output shape=torch.Size([40, 120, 64, 128])
+Inference complete

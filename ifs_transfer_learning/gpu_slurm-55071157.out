@@ -1,0 +1,126 @@
+NGPUS = 1
+Transfer learning: retraining ERA5 trained ANN-CNNs with stencil 3x3, vertical=stratosphere_only, horizontal=global model with features uvtheta. CyclicLR scheduler to cycle learning rates between lr_min=0.0001 to lr_max=0.0009.
+File name: /scratch/users/ag4680/coarsegrained_ifs_gwmf_helmholtz/NDJF/stratosphere_only_3x3_inputfeatures_u_v_theta_w_N2_uw_vw_era5_training_data_hourly_constant_mu_sigma_scaling.nc
+train batch size = 10
+validation batch size = 10
+Region: 1andes
+Input dim: 183, hidden dim: 732, output dim: 120
+Loading model checkpoint from /scratch/users/ag4680/torch_saved_models/JAMES/stratosphere_only/ann_cnn_3x3_global_stratosphere_only_era5_uvtheta__train_epoch93.pt
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+True
+True
+True
+True
+True
+True
+model loaded 
+ --- model size: 10.70 MBs,
+ --- Num params: 2.797 mil. 
+Model checkpoint loaded and prepared for re-training
+Re-Training final two layers...
+Training complete.
+NGPUS = 1
+Transfer learning: retraining ERA5 trained ANN-CNNs with stencil 3x3, vertical=stratosphere_only, horizontal=global model with features uvthetaw. CyclicLR scheduler to cycle learning rates between lr_min=0.0001 to lr_max=0.0009.
+File name: /scratch/users/ag4680/coarsegrained_ifs_gwmf_helmholtz/NDJF/stratosphere_only_3x3_inputfeatures_u_v_theta_w_N2_uw_vw_era5_training_data_hourly_constant_mu_sigma_scaling.nc
+train batch size = 10
+validation batch size = 10
+Region: 1andes
+Input dim: 243, hidden dim: 972, output dim: 120
+Loading model checkpoint from /scratch/users/ag4680/torch_saved_models/JAMES/stratosphere_only/ann_cnn_3x3_global_stratosphere_only_era5_uvthetaw__train_epoch38.pt
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+True
+True
+True
+True
+True
+True
+model loaded 
+ --- model size: 18.46 MBs,
+ --- Num params: 4.826 mil. 
+Model checkpoint loaded and prepared for re-training
+Re-Training final two layers...
+Training complete.
+NGPUS = 1
+Transfer learning: retraining ERA5 trained ANN-CNNs with stencil 3x3, vertical=stratosphere_update, horizontal=global model with features uvtheta. CyclicLR scheduler to cycle learning rates between lr_min=0.0001 to lr_max=0.0009.
+File name: /scratch/users/ag4680/coarsegrained_ifs_gwmf_helmholtz/NDJF/troposphere_and_stratosphere_3x3_inputfeatures_u_v_theta_w_uw_vw_era5_training_data_hourly_constant_mu_sigma_scaling.nc
+train batch size = 10
+validation batch size = 10
+Region: 1andes
+Input dim: 369, hidden dim: 1476, output dim: 120
+Loading model checkpoint from /scratch/users/ag4680/torch_saved_models/JAMES/stratosphere_update/ann_cnn_3x3_global_stratosphere_update_era5_uvtheta__train_epoch68.pt
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+True
+True
+True
+True
+True
+True
+model loaded 
+ --- model size: 41.63 MBs,
+ --- Num params: 10.894 mil. 
+Model checkpoint loaded and prepared for re-training
+Re-Training final two layers...
+Training complete.

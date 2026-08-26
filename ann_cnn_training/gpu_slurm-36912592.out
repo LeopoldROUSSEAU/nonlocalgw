@@ -1,0 +1,95 @@
+/var/spool/slurmd/job36912592/slurm_script: line 23: /home/groups/aditis2/leorouss/miniconda3/etc/profile.d/conda.sh: No such file or directory
+usage: conda [-h] [-v] [--no-plugins] [-V] COMMAND ...
+conda: error: argument COMMAND: invalid choice: 'activate' (choose from 'clean', 'compare', 'config', 'create', 'info', 'init', 'install', 'list', 'notices', 'package', 'remove', 'uninstall', 'rename', 'run', 'search', 'update', 'upgrade', 'content-trust', 'doctor', 'repoquery', 'env')
+NGPUS = 1
+Training the L93 model: Training the 1x1 ANN-CNNs, global horizontal and global vertical model with features uvthetaw with min-max learning rates 0.0001 to 0.0005 for a CyclicLR, and dropout=0.1.
+
+L93 coupling: Training the global horizontal and global vertical model, with features uvthetaw with min-max learning rates 0.0001 to 0.0005, and dropout=0.1. Starting from epoch 1. Training on years ['x02.h5' 'x03.h5'] and testing on years ['x04.h5'].
+
+Defined input files
+train batch size = 5
+validation batch size = 5
+train files: ['/scratch/groups/aditis2/cesm_mle_training_data/input_output_ps_u_v_theta_w_unscaled_ne240pg3_FMTHIST_x02.h5', '/scratch/groups/aditis2/cesm_mle_training_data/input_output_ps_u_v_theta_w_unscaled_ne240pg3_FMTHIST_x03.h5']
+test files: ['/scratch/groups/aditis2/cesm_mle_training_data/input_output_ps_u_v_theta_w_unscaled_ne240pg3_FMTHIST_x04.h5']
+<xarray.DataArray 'inputs' (time: 1862, in_channel: 373, latitude: 192,
+                            longitude: 288)> Size: 154GB
+dask.array<concatenate, shape=(1862, 373, 192, 288), dtype=float32, chunksize=(1, 373, 192, 288), chunktype=numpy.ndarray>
+Coordinates:
+  * time        (time) int32 7kB 0 1 2 3 4 5 6 7 ... 774 775 776 777 778 779 780
+  * in_channel  (in_channel) int32 1kB 0 1 2 3 4 5 6 ... 367 368 369 370 371 372
+  * latitude    (latitude) float64 2kB -89.76 -89.06 -88.12 ... 89.06 89.76
+  * longitude   (longitude) float64 2kB 0.0 1.25 2.5 3.75 ... 356.2 357.5 358.8
+Attributes:
+    DIMENSION_LABELS:  ['time', 'in_channel', 'latitude', 'longitude']
+NORMALISING INPUTS
+INPUT CHANNELS WITHOUT STATIC:
+<xarray.DataArray (time: 1862, in_channel: 373, latitude: 192, longitude: 288)> Size: 154GB
+dask.array<astype, shape=(1862, 373, 192, 288), dtype=float32, chunksize=(1, 93, 192, 288), chunktype=numpy.ndarray>
+Coordinates:
+  * time        (time) int32 7kB 0 1 2 3 4 5 6 7 ... 774 775 776 777 778 779 780
+  * in_channel  (in_channel) int32 1kB 0 1 2 3 4 5 6 ... 367 368 369 370 371 372
+  * latitude    (latitude) float64 2kB -89.76 -89.06 -88.12 ... 89.06 89.76
+  * longitude   (longitude) float64 2kB 0.0 1.25 2.5 3.75 ... 356.2 357.5 358.8
+Attributes:
+    DIMENSION_LABELS:  ['time', 'in_channel', 'latitude', 'longitude']
+INPUT CHANNELS WITH STATIC:
+<xarray.DataArray (time: 1862, in_channel: 381, latitude: 192, longitude: 288)> Size: 157GB
+dask.array<transpose, shape=(1862, 381, 192, 288), dtype=float32, chunksize=(1, 93, 161, 161), chunktype=numpy.ndarray>
+Coordinates:
+  * time        (time) int32 7kB 0 1 2 3 4 5 6 7 ... 774 775 776 777 778 779 780
+  * in_channel  (in_channel) int64 3kB 0 1 2 3 4 5 6 ... 375 376 377 378 379 380
+  * latitude    (latitude) float64 2kB -89.76 -89.06 -88.12 ... 89.06 89.76
+  * longitude   (longitude) float64 2kB 0.0 1.25 2.5 3.75 ... 356.2 357.5 358.8
+OUTPUT CHANNELS:
+<xarray.DataArray (time: 1862, out_channel: 186, latitude: 192, longitude: 288)> Size: 77GB
+dask.array<astype, shape=(1862, 186, 192, 288), dtype=float32, chunksize=(1, 186, 192, 288), chunktype=numpy.ndarray>
+Coordinates:
+  * time         (time) int32 7kB 0 1 2 3 4 5 6 ... 774 775 776 777 778 779 780
+  * out_channel  (out_channel) int32 744B 0 1 2 3 4 5 ... 181 182 183 184 185
+  * latitude     (latitude) float64 2kB -89.76 -89.06 -88.12 ... 89.06 89.76
+  * longitude    (longitude) float64 2kB 0.0 1.25 2.5 3.75 ... 356.2 357.5 358.8
+Attributes:
+    DIMENSION_LABELS:  ['time', 'out_channel', 'latitude', 'longitude']
+<xarray.DataArray 'inputs' (time: 703, in_channel: 373, latitude: 192,
+                            longitude: 288)> Size: 58GB
+dask.array<open_dataset-inputs, shape=(703, 373, 192, 288), dtype=float32, chunksize=(1, 373, 192, 288), chunktype=numpy.ndarray>
+Coordinates:
+  * time        (time) int32 3kB 0 1 2 3 4 5 6 7 ... 696 697 698 699 700 701 702
+  * in_channel  (in_channel) int32 1kB 0 1 2 3 4 5 6 ... 367 368 369 370 371 372
+  * latitude    (latitude) float64 2kB -89.76 -89.06 -88.12 ... 89.06 89.76
+  * longitude   (longitude) float64 2kB 0.0 1.25 2.5 3.75 ... 356.2 357.5 358.8
+Attributes:
+    DIMENSION_LABELS:  ['time', 'in_channel', 'latitude', 'longitude']
+NORMALISING INPUTS
+INPUT CHANNELS WITHOUT STATIC:
+<xarray.DataArray (time: 703, in_channel: 373, latitude: 192, longitude: 288)> Size: 58GB
+dask.array<astype, shape=(703, 373, 192, 288), dtype=float32, chunksize=(1, 93, 192, 288), chunktype=numpy.ndarray>
+Coordinates:
+  * time        (time) int32 3kB 0 1 2 3 4 5 6 7 ... 696 697 698 699 700 701 702
+  * in_channel  (in_channel) int32 1kB 0 1 2 3 4 5 6 ... 367 368 369 370 371 372
+  * latitude    (latitude) float64 2kB -89.76 -89.06 -88.12 ... 89.06 89.76
+  * longitude   (longitude) float64 2kB 0.0 1.25 2.5 3.75 ... 356.2 357.5 358.8
+Attributes:
+    DIMENSION_LABELS:  ['time', 'in_channel', 'latitude', 'longitude']
+INPUT CHANNELS WITH STATIC:
+<xarray.DataArray (time: 703, in_channel: 381, latitude: 192, longitude: 288)> Size: 59GB
+dask.array<transpose, shape=(703, 381, 192, 288), dtype=float32, chunksize=(1, 93, 161, 161), chunktype=numpy.ndarray>
+Coordinates:
+  * time        (time) int32 3kB 0 1 2 3 4 5 6 7 ... 696 697 698 699 700 701 702
+  * in_channel  (in_channel) int64 3kB 0 1 2 3 4 5 6 ... 375 376 377 378 379 380
+  * latitude    (latitude) float64 2kB -89.76 -89.06 -88.12 ... 89.06 89.76
+  * longitude   (longitude) float64 2kB 0.0 1.25 2.5 3.75 ... 356.2 357.5 358.8
+OUTPUT CHANNELS:
+<xarray.DataArray (time: 703, out_channel: 186, latitude: 192, longitude: 288)> Size: 29GB
+dask.array<astype, shape=(703, 186, 192, 288), dtype=float32, chunksize=(1, 186, 192, 288), chunktype=numpy.ndarray>
+Coordinates:
+  * time         (time) int32 3kB 0 1 2 3 4 5 6 ... 696 697 698 699 700 701 702
+  * out_channel  (out_channel) int32 744B 0 1 2 3 4 5 ... 181 182 183 184 185
+  * latitude     (latitude) float64 2kB -89.76 -89.06 -88.12 ... 89.06 89.76
+  * longitude    (longitude) float64 2kB 0.0 1.25 2.5 3.75 ... 356.2 357.5 358.8
+Attributes:
+    DIMENSION_LABELS:  ['time', 'out_channel', 'latitude', 'longitude']
+Input dim: 381, hidden dim: 1524, output dim: 186
+Model created. 
+ --- model size: 40.11 MBs,
+ --- Num params: 10.515 mil. 

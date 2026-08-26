@@ -1,0 +1,165 @@
+NGPUS = 1
+Training the global horizontal and stratosphere_update vertical model with features uvw with min-max learning rates 0.0001 to 0.0005.
+Training the global horizontal and stratosphere_update vertical model, with features uvw with min-max learning rates 0.0001 to 0.0005, and dropout=0.05. Starting from epoch 1. Training on years [2010 2012 2014] and testing on years [2015].
+Defined input files
+Model created. 
+ --- model size: 144.58 MBs,
+ --- Num params: 37.885 mil. 
+NGPUS = 1
+Training the global horizontal and stratosphere_update vertical model with features uvw with min-max learning rates 0.0001 to 0.0005.
+Training the global horizontal and stratosphere_update vertical model, with features uvw with min-max learning rates 0.0001 to 0.0005, and dropout=0.05. Starting from epoch 1. Training on years [2010 2012 2014] and testing on years [2015].
+Defined input files
+Model created. 
+ --- model size: 144.58 MBs,
+ --- Num params: 37.885 mil. 
+Epoch 1, 1/150, training mseloss: 0.238890, testing mseloss: 0.215620
+Epoch 2, 2/150, training mseloss: 0.201009, testing mseloss: 0.193969
+Epoch 3, 3/150, training mseloss: 0.186895, testing mseloss: 0.181251
+Epoch 4, 4/150, training mseloss: 0.176360, testing mseloss: 0.173101
+Epoch 5, 5/150, training mseloss: 0.168731, testing mseloss: 0.164906
+Epoch 6, 6/150, training mseloss: 0.162024, testing mseloss: 0.162307
+Epoch 7, 7/150, training mseloss: 0.156434, testing mseloss: 0.153853
+Epoch 8, 8/150, training mseloss: 0.152136, testing mseloss: 0.153503
+Epoch 9, 9/150, training mseloss: 0.148394, testing mseloss: 0.148263
+Epoch 10, 10/150, training mseloss: 0.145450, testing mseloss: 0.147522
+Epoch 11, 11/150, training mseloss: 0.142823, testing mseloss: 0.145836
+Epoch 12, 12/150, training mseloss: 0.140528, testing mseloss: 0.141475
+Epoch 13, 13/150, training mseloss: 0.138551, testing mseloss: 0.141537
+Epoch 14, 14/150, training mseloss: 0.136637, testing mseloss: 0.138205
+Epoch 15, 15/150, training mseloss: 0.135012, testing mseloss: 0.139040
+Epoch 16, 16/150, training mseloss: 0.133263, testing mseloss: 0.139259
+Epoch 17, 17/150, training mseloss: 0.131871, testing mseloss: 0.137843
+Epoch 18, 18/150, training mseloss: 0.130788, testing mseloss: 0.136846
+Epoch 19, 19/150, training mseloss: 0.129390, testing mseloss: 0.131471
+Epoch 20, 20/150, training mseloss: 0.128430, testing mseloss: 0.137373
+Epoch 21, 21/150, training mseloss: 0.127377, testing mseloss: 0.133643
+Epoch 22, 22/150, training mseloss: 0.126557, testing mseloss: 0.134473
+Epoch 23, 23/150, training mseloss: 0.125940, testing mseloss: 0.135543
+Epoch 24, 24/150, training mseloss: 0.125034, testing mseloss: 0.131840
+Epoch 25, 25/150, training mseloss: 0.124527, testing mseloss: 0.142363
+Epoch 26, 26/150, training mseloss: 0.123919, testing mseloss: 0.129044
+Epoch 27, 27/150, training mseloss: 0.123149, testing mseloss: 0.133828
+Epoch 28, 28/150, training mseloss: 0.123314, testing mseloss: 0.134143
+Epoch 29, 29/150, training mseloss: 0.123933, testing mseloss: 0.253365
+Epoch 30, 30/150, training mseloss: 0.123863, testing mseloss: 0.132680
+Epoch 31, 31/150, training mseloss: 0.121471, testing mseloss: 0.127170
+Epoch 32, 32/150, training mseloss: 0.120805, testing mseloss: 0.136727
+Epoch 33, 33/150, training mseloss: 0.120267, testing mseloss: 0.128620
+Epoch 34, 34/150, training mseloss: 0.119780, testing mseloss: 0.131524
+Epoch 35, 35/150, training mseloss: 0.119463, testing mseloss: 0.135393
+Epoch 36, 36/150, training mseloss: 0.122844, testing mseloss: 0.136984
+Epoch 37, 37/150, training mseloss: 0.119902, testing mseloss: 0.132952
+Epoch 38, 38/150, training mseloss: 0.118390, testing mseloss: 0.125900
+Epoch 39, 39/150, training mseloss: 0.117950, testing mseloss: 0.133319
+Epoch 40, 40/150, training mseloss: 0.117679, testing mseloss: 0.133185
+Epoch 41, 41/150, training mseloss: 0.118661, testing mseloss: 0.131018
+Epoch 42, 42/150, training mseloss: 0.117026, testing mseloss: 0.136057
+Epoch 43, 43/150, training mseloss: 0.116433, testing mseloss: 0.127308
+Epoch 44, 44/150, training mseloss: 0.116238, testing mseloss: 0.135435
+Epoch 45, 45/150, training mseloss: 0.115843, testing mseloss: 0.127088
+Epoch 46, 46/150, training mseloss: 0.115776, testing mseloss: 0.131715
+Epoch 47, 47/150, training mseloss: 0.115376, testing mseloss: 0.134789
+Epoch 48, 48/150, training mseloss: 0.118192, testing mseloss: 0.135063
+Epoch 49, 49/150, training mseloss: 0.115113, testing mseloss: 0.135289
+Epoch 50, 50/150, training mseloss: 0.114315, testing mseloss: 0.124517
+Epoch 51, 51/150, training mseloss: 0.114163, testing mseloss: 0.132672
+Epoch 52, 52/150, training mseloss: 0.113855, testing mseloss: 0.130815
+Epoch 53, 53/150, training mseloss: 0.113588, testing mseloss: 0.128627
+Epoch 54, 54/150, training mseloss: 0.113435, testing mseloss: 0.133121
+Epoch 55, 55/150, training mseloss: 0.113568, testing mseloss: 0.129725
+Epoch 56, 56/150, training mseloss: 0.113073, testing mseloss: 0.163320
+Epoch 57, 57/150, training mseloss: 0.114038, testing mseloss: 0.123740
+Epoch 58, 58/150, training mseloss: 0.112748, testing mseloss: 0.128982
+Epoch 59, 59/150, training mseloss: 0.112691, testing mseloss: 0.132302
+Epoch 60, 60/150, training mseloss: 0.112537, testing mseloss: 0.127339
+Epoch 61, 61/150, training mseloss: 0.111969, testing mseloss: 0.132308
+Epoch 62, 62/150, training mseloss: 0.112282, testing mseloss: 0.124496
+Epoch 63, 63/150, training mseloss: 0.111615, testing mseloss: 0.128954
+Epoch 64, 64/150, training mseloss: 0.111382, testing mseloss: 0.123603
+Epoch 65, 65/150, training mseloss: 0.115672, testing mseloss: 0.127961
+Epoch 66, 66/150, training mseloss: 0.111762, testing mseloss: 0.129255
+Epoch 67, 67/150, training mseloss: 0.111005, testing mseloss: 0.124814
+Epoch 68, 68/150, training mseloss: 0.110820, testing mseloss: 0.130075
+Epoch 69, 69/150, training mseloss: 0.110522, testing mseloss: 0.121988
+Epoch 70, 70/150, training mseloss: 0.110474, testing mseloss: 0.126435
+Epoch 71, 71/150, training mseloss: 0.110417, testing mseloss: 0.127152
+Epoch 72, 72/150, training mseloss: 0.110073, testing mseloss: 0.125116
+Epoch 73, 73/150, training mseloss: 0.110183, testing mseloss: 0.131377
+Epoch 74, 74/150, training mseloss: 0.109848, testing mseloss: 0.124402
+Epoch 75, 75/150, training mseloss: 0.109658, testing mseloss: 0.126189
+Epoch 76, 76/150, training mseloss: 0.109584, testing mseloss: 0.123391
+Epoch 77, 77/150, training mseloss: 0.110266, testing mseloss: 0.126898
+Epoch 78, 78/150, training mseloss: 0.109273, testing mseloss: 0.127336
+Epoch 79, 79/150, training mseloss: 0.109384, testing mseloss: 0.125218
+Epoch 80, 80/150, training mseloss: 0.109564, testing mseloss: 0.127542
+Epoch 81, 81/150, training mseloss: 0.108980, testing mseloss: 0.122161
+Epoch 82, 82/150, training mseloss: 0.108752, testing mseloss: 0.127565
+Epoch 83, 83/150, training mseloss: 0.108571, testing mseloss: 0.126710
+Epoch 84, 84/150, training mseloss: 0.108627, testing mseloss: 0.125688
+Epoch 85, 85/150, training mseloss: 0.108484, testing mseloss: 0.125687
+Epoch 86, 86/150, training mseloss: 0.108192, testing mseloss: 0.124459
+Epoch 87, 87/150, training mseloss: 0.108161, testing mseloss: 0.126971
+Epoch 88, 88/150, training mseloss: 0.108229, testing mseloss: 0.120938
+Epoch 89, 89/150, training mseloss: 0.107895, testing mseloss: 0.127364
+Epoch 90, 90/150, training mseloss: 0.107650, testing mseloss: 0.126632
+Epoch 91, 91/150, training mseloss: 0.107519, testing mseloss: 0.125903
+Epoch 92, 92/150, training mseloss: 0.108059, testing mseloss: 0.128379
+Epoch 93, 93/150, training mseloss: 0.107331, testing mseloss: 0.126753
+Epoch 94, 94/150, training mseloss: 0.107231, testing mseloss: 0.126120
+Epoch 95, 95/150, training mseloss: 0.107059, testing mseloss: 0.125831
+Epoch 96, 96/150, training mseloss: 0.107049, testing mseloss: 0.125771
+Epoch 97, 97/150, training mseloss: 0.107018, testing mseloss: 0.127269
+Epoch 98, 98/150, training mseloss: 0.108709, testing mseloss: 0.123782
+Epoch 99, 99/150, training mseloss: 0.107228, testing mseloss: 0.129799
+Epoch 100, 100/150, training mseloss: 0.123907, testing mseloss: 0.141586
+Epoch 101, 101/150, training mseloss: 0.118958, testing mseloss: 0.133197
+Epoch 102, 102/150, training mseloss: 0.111051, testing mseloss: 0.124235
+Epoch 103, 103/150, training mseloss: 0.108916, testing mseloss: 0.124884
+Epoch 104, 104/150, training mseloss: 0.108241, testing mseloss: 0.124886
+Epoch 105, 105/150, training mseloss: 0.109970, testing mseloss: 0.123973
+Epoch 106, 106/150, training mseloss: 0.108671, testing mseloss: 0.125654
+Epoch 107, 107/150, training mseloss: 0.107413, testing mseloss: 0.121881
+Epoch 108, 108/150, training mseloss: 0.107059, testing mseloss: 0.123315
+Epoch 109, 109/150, training mseloss: 0.106789, testing mseloss: 0.126311
+Epoch 110, 110/150, training mseloss: 0.106852, testing mseloss: 0.124768
+Epoch 111, 111/150, training mseloss: 0.106736, testing mseloss: 0.126958
+Epoch 112, 112/150, training mseloss: 0.106354, testing mseloss: 0.124694
+Epoch 113, 113/150, training mseloss: 0.107758, testing mseloss: 0.125380
+Epoch 114, 114/150, training mseloss: 0.106604, testing mseloss: 0.125534
+Epoch 115, 115/150, training mseloss: 0.106404, testing mseloss: 0.123710
+Epoch 116, 116/150, training mseloss: 0.106211, testing mseloss: 0.127161
+Epoch 117, 117/150, training mseloss: 0.106034, testing mseloss: 0.122698
+Epoch 118, 118/150, training mseloss: 0.106081, testing mseloss: 0.129201
+Epoch 119, 119/150, training mseloss: 0.106369, testing mseloss: 0.122627
+Epoch 120, 120/150, training mseloss: 0.106556, testing mseloss: 0.124010
+Epoch 121, 121/150, training mseloss: 0.105636, testing mseloss: 0.127722
+Epoch 122, 122/150, training mseloss: 0.105455, testing mseloss: 0.123087
+Epoch 123, 123/150, training mseloss: 0.105465, testing mseloss: 0.125008
+Epoch 124, 124/150, training mseloss: 0.113945, testing mseloss: 0.122470
+Epoch 125, 125/150, training mseloss: 0.106272, testing mseloss: 0.126541
+Epoch 126, 126/150, training mseloss: 0.105502, testing mseloss: 0.122333
+Epoch 127, 127/150, training mseloss: 0.105325, testing mseloss: 0.122423
+Epoch 128, 128/150, training mseloss: 0.105230, testing mseloss: 0.124863
+Epoch 129, 129/150, training mseloss: 0.105153, testing mseloss: 0.122375
+Epoch 130, 130/150, training mseloss: 0.105151, testing mseloss: 0.125966
+Epoch 131, 131/150, training mseloss: 0.104959, testing mseloss: 0.121860
+Epoch 132, 132/150, training mseloss: 0.104956, testing mseloss: 0.123684
+Epoch 133, 133/150, training mseloss: 0.104804, testing mseloss: 0.124199
+Epoch 134, 134/150, training mseloss: 0.104750, testing mseloss: 0.123096
+Epoch 135, 135/150, training mseloss: 0.104715, testing mseloss: 0.124467
+Epoch 136, 136/150, training mseloss: 0.104519, testing mseloss: 0.123719
+Epoch 137, 137/150, training mseloss: 0.104547, testing mseloss: 0.124000
+Epoch 138, 138/150, training mseloss: 0.104372, testing mseloss: 0.121405
+Epoch 139, 139/150, training mseloss: 0.104362, testing mseloss: 0.122462
+Epoch 140, 140/150, training mseloss: 0.104271, testing mseloss: 0.128816
+Epoch 141, 141/150, training mseloss: 0.104173, testing mseloss: 0.121536
+Epoch 142, 142/150, training mseloss: 0.104221, testing mseloss: 0.126092
+Epoch 143, 143/150, training mseloss: 0.104022, testing mseloss: 0.122616
+Epoch 144, 144/150, training mseloss: 0.104036, testing mseloss: 0.123330
+Epoch 145, 145/150, training mseloss: 0.103879, testing mseloss: 0.121864
+Epoch 146, 146/150, training mseloss: 0.103852, testing mseloss: 0.122983
+Epoch 147, 147/150, training mseloss: 0.103785, testing mseloss: 0.126668
+Epoch 148, 148/150, training mseloss: 0.103679, testing mseloss: 0.122368
+Epoch 149, 149/150, training mseloss: 0.103720, testing mseloss: 0.127070
+Epoch 150, 150/150, training mseloss: 0.103570, testing mseloss: 0.121354
+Model training complete

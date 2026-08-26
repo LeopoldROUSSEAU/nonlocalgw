@@ -1,0 +1,140 @@
+NGPUS = 1
+Transfer learning: retraining ERA5 trained ANN-CNNs with stencil 1x1, vertical=global, horizontal=global model with features uvtheta. CyclicLR scheduler to cycle learning rates between lr_min=0.0001 to lr_max=0.0009.
+File name: /scratch/users/ag4680/coarsegrained_ifs_gwmf_helmholtz/NDJF/troposphere_and_stratosphere_1x1_inputfeatures_u_v_theta_w_uw_vw_era5_training_data_hourly_constant_mu_sigma_scaling.nc
+train batch size = 20
+validation batch size = 20
+Region: 1andes
+Input dim: 369, hidden dim: 1476, output dim: 244
+Loading model checkpoint from /scratch/users/ag4680/torch_saved_models/JAMES/global/ann_cnn_1x1_global_global_era5_uvtheta__train_epoch94.pt
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+True
+True
+True
+True
+True
+True
+model loaded 
+ --- model size: 38.70 MBs,
+ --- Num params: 10.125 mil. 
+Model checkpoint loaded and prepared for re-training
+Re-Training final two layers...
+Epoch 1, 1/100, training mseloss: 0.690113
+Epoch 2, 2/100, training mseloss: 0.636828
+Epoch 3, 3/100, training mseloss: 0.625049
+Epoch 4, 4/100, training mseloss: 0.617251
+Epoch 5, 5/100, training mseloss: 0.612671
+Epoch 6, 6/100, training mseloss: 0.608558
+Epoch 7, 7/100, training mseloss: 0.605263
+Epoch 8, 8/100, training mseloss: 0.602804
+Epoch 9, 9/100, training mseloss: 0.599975
+Epoch 10, 10/100, training mseloss: 0.598286
+Epoch 11, 11/100, training mseloss: 0.595778
+Epoch 12, 12/100, training mseloss: 0.594630
+Epoch 13, 13/100, training mseloss: 0.592495
+Epoch 14, 14/100, training mseloss: 0.591539
+Epoch 15, 15/100, training mseloss: 0.589959
+Epoch 16, 16/100, training mseloss: 0.588735
+Epoch 17, 17/100, training mseloss: 0.587859
+Epoch 18, 18/100, training mseloss: 0.586267
+Epoch 19, 19/100, training mseloss: 0.585864
+Epoch 20, 20/100, training mseloss: 0.584125
+Epoch 21, 21/100, training mseloss: 0.583884
+Epoch 22, 22/100, training mseloss: 0.582257
+Epoch 23, 23/100, training mseloss: 0.582015
+Epoch 24, 24/100, training mseloss: 0.580762
+Epoch 25, 25/100, training mseloss: 0.580211
+Epoch 26, 26/100, training mseloss: 0.579556
+Epoch 27, 27/100, training mseloss: 0.578525
+Epoch 28, 28/100, training mseloss: 0.578459
+Epoch 29, 29/100, training mseloss: 0.577071
+Epoch 30, 30/100, training mseloss: 0.577244
+Epoch 31, 31/100, training mseloss: 0.575772
+Epoch 32, 32/100, training mseloss: 0.575976
+Epoch 33, 33/100, training mseloss: 0.574713
+Epoch 34, 34/100, training mseloss: 0.574686
+Epoch 35, 35/100, training mseloss: 0.573883
+Epoch 36, 36/100, training mseloss: 0.573372
+Epoch 37, 37/100, training mseloss: 0.573224
+Epoch 38, 38/100, training mseloss: 0.572205
+Epoch 39, 39/100, training mseloss: 0.572503
+Epoch 40, 40/100, training mseloss: 0.571193
+Epoch 41, 41/100, training mseloss: 0.571643
+Epoch 42, 42/100, training mseloss: 0.570332
+Epoch 43, 43/100, training mseloss: 0.570701
+Epoch 44, 44/100, training mseloss: 0.569673
+Epoch 45, 45/100, training mseloss: 0.569659
+Epoch 46, 46/100, training mseloss: 0.569203
+Epoch 47, 47/100, training mseloss: 0.568636
+Epoch 48, 48/100, training mseloss: 0.568793
+Epoch 49, 49/100, training mseloss: 0.567762
+Epoch 50, 50/100, training mseloss: 0.568238
+Epoch 51, 51/100, training mseloss: 0.567002
+Epoch 52, 52/100, training mseloss: 0.567571
+Epoch 53, 53/100, training mseloss: 0.566428
+Epoch 54, 54/100, training mseloss: 0.566787
+Epoch 55, 55/100, training mseloss: 0.566028
+Epoch 56, 56/100, training mseloss: 0.565902
+Epoch 57, 57/100, training mseloss: 0.565777
+Epoch 58, 58/100, training mseloss: 0.565118
+Epoch 59, 59/100, training mseloss: 0.565471
+Epoch 60, 60/100, training mseloss: 0.564431
+Epoch 61, 61/100, training mseloss: 0.565015
+Epoch 62, 62/100, training mseloss: 0.563880
+Epoch 63, 63/100, training mseloss: 0.564453
+Epoch 64, 64/100, training mseloss: 0.563503
+Epoch 65, 65/100, training mseloss: 0.563736
+Epoch 66, 66/100, training mseloss: 0.563296
+Epoch 67, 67/100, training mseloss: 0.563011
+Epoch 68, 68/100, training mseloss: 0.563158
+Epoch 69, 69/100, training mseloss: 0.562381
+Epoch 70, 70/100, training mseloss: 0.562881
+Epoch 71, 71/100, training mseloss: 0.561839
+Epoch 72, 72/100, training mseloss: 0.562483
+Epoch 73, 73/100, training mseloss: 0.561466
+Epoch 74, 74/100, training mseloss: 0.561947
+Epoch 75, 75/100, training mseloss: 0.561250
+Epoch 76, 76/100, training mseloss: 0.561289
+Epoch 77, 77/100, training mseloss: 0.561176
+Epoch 78, 78/100, training mseloss: 0.560703
+Epoch 79, 79/100, training mseloss: 0.561062
+Epoch 80, 80/100, training mseloss: 0.560190
+Epoch 81, 81/100, training mseloss: 0.560802
+Epoch 82, 82/100, training mseloss: 0.559801
+Epoch 83, 83/100, training mseloss: 0.560422
+Epoch 84, 84/100, training mseloss: 0.559559
+Epoch 85, 85/100, training mseloss: 0.559872
+Epoch 86, 86/100, training mseloss: 0.559476
+Epoch 87, 87/100, training mseloss: 0.559301
+Epoch 88, 88/100, training mseloss: 0.559469
+Epoch 89, 89/100, training mseloss: 0.558815
+Epoch 90, 90/100, training mseloss: 0.559335
+Epoch 91, 91/100, training mseloss: 0.558411
+Epoch 92, 92/100, training mseloss: 0.559084
+Epoch 93, 93/100, training mseloss: 0.558152
+Epoch 94, 94/100, training mseloss: 0.558674
+Epoch 95, 95/100, training mseloss: 0.558027
+Epoch 96, 96/100, training mseloss: 0.558131
+Epoch 97, 97/100, training mseloss: 0.558047
+Epoch 98, 98/100, training mseloss: 0.557649
+Epoch 99, 99/100, training mseloss: 0.558035
+Epoch 100, 100/100, training mseloss: 0.557249
+Training complete.

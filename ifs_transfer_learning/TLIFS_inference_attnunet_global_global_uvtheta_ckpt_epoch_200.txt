@@ -1,0 +1,142 @@
+NGPUS = 1
+Inference for month 1
+Inference the Attention UNet model on global horizontal and global vertical model, with features uvtheta and dropout=0.0.
+Test files = ['/scratch/users/ag4680/training_data/era5/1x1_inputfeatures_u_v_theta_w_uw_vw_era5_training_data_hourly_2015_constant_mu_sigma_scaling01.nc']
+Model created. 
+ --- model size: 144.61 MBs,
+ --- Num params: 37.893 mil. 
+Output NC file: /scratch/users/ag4680/gw_inference_ncfiles/TLIFS_inference_TLIFS_attnunet_era5_ifs_global_global_uvtheta_mseloss_train_epoch200_2015_1_testedonERA5.nc
+Initiating inference
+Minibatch=0, count=0, output shape=torch.Size([40, 244, 64, 128])
+Inference complete
+NGPUS = 1
+Inference for month 2
+Inference the Attention UNet model on global horizontal and global vertical model, with features uvtheta and dropout=0.0.
+Test files = ['/scratch/users/ag4680/training_data/era5/1x1_inputfeatures_u_v_theta_w_uw_vw_era5_training_data_hourly_2015_constant_mu_sigma_scaling02.nc']
+Model created. 
+ --- model size: 144.61 MBs,
+ --- Num params: 37.893 mil. 
+Output NC file: /scratch/users/ag4680/gw_inference_ncfiles/TLIFS_inference_TLIFS_attnunet_era5_ifs_global_global_uvtheta_mseloss_train_epoch200_2015_2_testedonERA5.nc
+Initiating inference
+Minibatch=0, count=0, output shape=torch.Size([40, 244, 64, 128])
+Inference complete
+NGPUS = 1
+Inference for month 3
+Inference the Attention UNet model on global horizontal and global vertical model, with features uvtheta and dropout=0.0.
+Test files = ['/scratch/users/ag4680/training_data/era5/1x1_inputfeatures_u_v_theta_w_uw_vw_era5_training_data_hourly_2015_constant_mu_sigma_scaling03.nc']
+Model created. 
+ --- model size: 144.61 MBs,
+ --- Num params: 37.893 mil. 
+Output NC file: /scratch/users/ag4680/gw_inference_ncfiles/TLIFS_inference_TLIFS_attnunet_era5_ifs_global_global_uvtheta_mseloss_train_epoch200_2015_3_testedonERA5.nc
+Initiating inference
+Minibatch=0, count=0, output shape=torch.Size([40, 244, 64, 128])
+Inference complete
+NGPUS = 1
+Inference for month 4
+Inference the Attention UNet model on global horizontal and global vertical model, with features uvtheta and dropout=0.0.
+Test files = ['/scratch/users/ag4680/training_data/era5/1x1_inputfeatures_u_v_theta_w_uw_vw_era5_training_data_hourly_2015_constant_mu_sigma_scaling04.nc']
+Model created. 
+ --- model size: 144.61 MBs,
+ --- Num params: 37.893 mil. 
+Output NC file: /scratch/users/ag4680/gw_inference_ncfiles/TLIFS_inference_TLIFS_attnunet_era5_ifs_global_global_uvtheta_mseloss_train_epoch200_2015_4_testedonERA5.nc
+Initiating inference
+Minibatch=0, count=0, output shape=torch.Size([40, 244, 64, 128])
+Inference complete
+NGPUS = 1
+Inference for month 5
+Inference the Attention UNet model on global horizontal and global vertical model, with features uvtheta and dropout=0.0.
+Test files = ['/scratch/users/ag4680/training_data/era5/1x1_inputfeatures_u_v_theta_w_uw_vw_era5_training_data_hourly_2015_constant_mu_sigma_scaling05.nc']
+Model created. 
+ --- model size: 144.61 MBs,
+ --- Num params: 37.893 mil. 
+Output NC file: /scratch/users/ag4680/gw_inference_ncfiles/TLIFS_inference_TLIFS_attnunet_era5_ifs_global_global_uvtheta_mseloss_train_epoch200_2015_5_testedonERA5.nc
+Initiating inference
+Minibatch=0, count=0, output shape=torch.Size([40, 244, 64, 128])
+Inference complete
+NGPUS = 1
+Inference for month 6
+Inference the Attention UNet model on global horizontal and global vertical model, with features uvtheta and dropout=0.0.
+Test files = ['/scratch/users/ag4680/training_data/era5/1x1_inputfeatures_u_v_theta_w_uw_vw_era5_training_data_hourly_2015_constant_mu_sigma_scaling06.nc']
+Model created. 
+ --- model size: 144.61 MBs,
+ --- Num params: 37.893 mil. 
+Output NC file: /scratch/users/ag4680/gw_inference_ncfiles/TLIFS_inference_TLIFS_attnunet_era5_ifs_global_global_uvtheta_mseloss_train_epoch200_2015_6_testedonERA5.nc
+Initiating inference
+Minibatch=0, count=0, output shape=torch.Size([40, 244, 64, 128])
+Inference complete
+NGPUS = 1
+Inference for month 7
+Inference the Attention UNet model on global horizontal and global vertical model, with features uvtheta and dropout=0.0.
+Test files = ['/scratch/users/ag4680/training_data/era5/1x1_inputfeatures_u_v_theta_w_uw_vw_era5_training_data_hourly_2015_constant_mu_sigma_scaling07.nc']
+Model created. 
+ --- model size: 144.61 MBs,
+ --- Num params: 37.893 mil. 
+Output NC file: /scratch/users/ag4680/gw_inference_ncfiles/TLIFS_inference_TLIFS_attnunet_era5_ifs_global_global_uvtheta_mseloss_train_epoch200_2015_7_testedonERA5.nc
+Initiating inference
+Minibatch=0, count=0, output shape=torch.Size([40, 244, 64, 128])
+Inference complete
+NGPUS = 1
+Inference for month 8
+Inference the Attention UNet model on global horizontal and global vertical model, with features uvtheta and dropout=0.0.
+Test files = ['/scratch/users/ag4680/training_data/era5/1x1_inputfeatures_u_v_theta_w_uw_vw_era5_training_data_hourly_2015_constant_mu_sigma_scaling08.nc']
+Model created. 
+ --- model size: 144.61 MBs,
+ --- Num params: 37.893 mil. 
+Output NC file: /scratch/users/ag4680/gw_inference_ncfiles/TLIFS_inference_TLIFS_attnunet_era5_ifs_global_global_uvtheta_mseloss_train_epoch200_2015_8_testedonERA5.nc
+Initiating inference
+Minibatch=0, count=0, output shape=torch.Size([40, 244, 64, 128])
+Inference complete
+NGPUS = 1
+Inference for month 9
+Inference the Attention UNet model on global horizontal and global vertical model, with features uvtheta and dropout=0.0.
+Test files = ['/scratch/users/ag4680/training_data/era5/1x1_inputfeatures_u_v_theta_w_uw_vw_era5_training_data_hourly_2015_constant_mu_sigma_scaling09.nc']
+Model created. 
+ --- model size: 144.61 MBs,
+ --- Num params: 37.893 mil. 
+Output NC file: /scratch/users/ag4680/gw_inference_ncfiles/TLIFS_inference_TLIFS_attnunet_era5_ifs_global_global_uvtheta_mseloss_train_epoch200_2015_9_testedonERA5.nc
+Initiating inference
+Minibatch=0, count=0, output shape=torch.Size([40, 244, 64, 128])
+Inference complete
+NGPUS = 1
+Inference for month 10
+Inference the Attention UNet model on global horizontal and global vertical model, with features uvtheta and dropout=0.0.
+Test files = ['/scratch/users/ag4680/training_data/era5/1x1_inputfeatures_u_v_theta_w_uw_vw_era5_training_data_hourly_2015_constant_mu_sigma_scaling10.nc']
+Model created. 
+ --- model size: 144.61 MBs,
+ --- Num params: 37.893 mil. 
+Output NC file: /scratch/users/ag4680/gw_inference_ncfiles/TLIFS_inference_TLIFS_attnunet_era5_ifs_global_global_uvtheta_mseloss_train_epoch200_2015_10_testedonERA5.nc
+Initiating inference
+Minibatch=0, count=0, output shape=torch.Size([40, 244, 64, 128])
+Inference complete
+NGPUS = 1
+Inference for month 11
+Inference the Attention UNet model on global horizontal and global vertical model, with features uvtheta and dropout=0.0.
+Test files = ['/scratch/users/ag4680/training_data/era5/1x1_inputfeatures_u_v_theta_w_uw_vw_era5_training_data_hourly_2015_constant_mu_sigma_scaling11.nc']
+Model created. 
+ --- model size: 144.61 MBs,
+ --- Num params: 37.893 mil. 
+Output NC file: /scratch/users/ag4680/gw_inference_ncfiles/TLIFS_inference_TLIFS_attnunet_era5_ifs_global_global_uvtheta_mseloss_train_epoch200_2015_11_testedonERA5.nc
+Initiating inference
+Minibatch=0, count=0, output shape=torch.Size([40, 244, 64, 128])
+Inference complete
+NGPUS = 1
+Inference for month 12
+Inference the Attention UNet model on global horizontal and global vertical model, with features uvtheta and dropout=0.0.
+Test files = ['/scratch/users/ag4680/training_data/era5/1x1_inputfeatures_u_v_theta_w_uw_vw_era5_training_data_hourly_2015_constant_mu_sigma_scaling12.nc']
+Model created. 
+ --- model size: 144.61 MBs,
+ --- Num params: 37.893 mil. 
+Output NC file: /scratch/users/ag4680/gw_inference_ncfiles/TLIFS_inference_TLIFS_attnunet_era5_ifs_global_global_uvtheta_mseloss_train_epoch200_2015_12_testedonERA5.nc
+Initiating inference
+Minibatch=0, count=0, output shape=torch.Size([40, 244, 64, 128])
+Inference complete
+NGPUS = 1
+Inference the Attention UNet model on global horizontal and global vertical model, with features uvtheta and dropout=0.0.
+Test files = ['/scratch/users/ag4680/coarsegrained_ifs_gwmf_helmholtz/NDJF/troposphere_and_stratosphere_1x1_inputfeatures_u_v_theta_w_uw_vw_era5_training_data_hourly_constant_mu_sigma_scaling.nc']
+Model created. 
+ --- model size: 144.61 MBs,
+ --- Num params: 37.893 mil. 
+Output NC file: /scratch/users/ag4680/gw_inference_ncfiles/TLIFS_inference_TLIFS_attnunet_era5_ifs_global_global_uvtheta_mseloss_train_epoch200_testedonIFS.nc
+Initiating inference
+Minibatch=0, count=0, output shape=torch.Size([40, 244, 64, 128])
+Inference complete

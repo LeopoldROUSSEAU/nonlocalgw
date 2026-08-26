@@ -1,0 +1,82 @@
+O
+tober 21 2024:
+===============
+Training of all models including transfer learning runs almost complete. Only some 5x5 ones remaining.
+
+
+Noticed that the initial Attn UNet runs were trained with a higher learning rate. Even though Attention Unet beat all other models wth the higher learning rate of 1e-3 to 9e-3 as well, it can certainly do better. Submitted 4 new runs with LR consistent with ANNs, i.e., 1e-4 to 5e-4. The models, as on now, seem to converge much faster and hopefully will have better performance as well. So, going forward, use the new runs with lower LR instead.
+
+
+The following runs were used for inference and transfer learning at first. These runs has 0.1 dropout for ANN_CNNs, and 0 dropout for the Attention UNets. Also, these were only done for stratosphere only runs, which is not ideal.
+|===================================================================================|
+|                      |        GLOBAL                |        STRATOSPHERE ONLY    |
+|===================================================================================|
+|u,v,theta             |  1x1: epoch 94 (0.589)       |  1x1: epoch 88 (0.2321)     |
+|                      |  3x3: epoch 52 (0.467)       |  3x3: epoch 93 (0.183)      |
+|                      |  5x5: epoch 54 (0.4546)      |  5x5: epoch 59 (0.1774)     |
+|                      |  AUnet: epoch 100 (0.448)*   |  AUnet: epoch 100 (0.162)*  |
+|                      |  AUnet: epoch 100 (0.439)    |  AUnet: epoch 131 (0.151)   | 
+|===================================================================================|
+|u,v,theta,w           |  1x1: epoch 94 (0.501)       |  1x1: epoch 100 (0.179)     |
+|                      |  3x3: epoch 80 (0.3574)      |  3x3: epoch 38 (0.1356)     |
+|                      |  5x5: epoch 45 (0.3671)      |  5x5: epoch 35 (0.1245)     |
+|                      |  AUnet: epoch 88 (0.368)*    |  AUnet: epoch 100 (0.1335)* |
+|                      |  AUnet: epoch 119 (0.367)    |  AUnet: epoch 138 (0.126)   |
+|===================================================================================|
+*AUNet with a star: these are the original Attn Unet runs with a higher LR. Ignore these in the long term
+NOTE: Use the second line AUNet ones, not the starred ones, for inference.
+
+Clearly, the nonlocal runs generate lower MSE Loss. Also, having the four features leads to lesser error that the having the three features.
+Since less noise in the stratosphere and weaker flux magnitudes, the MSE Loss is weaker for the stratosphere only runs, than for the global runs.
+Attention UNet provides the lower error for the three features input. However, for four features, the errors from Attention UNet are not the lowest. For four, they are definitey much lower than 1x1 but might be slightly higher than 3x3 or 5x5. No clear patter for u,v,theta,w.
+
+Some of these runs were done again on October 27th 2024. In particular, (a) dropout of 0.05 was added to ALL attention UNet runs, (b) the runs were done in 'stratosphere_update' mode where the whole column was used to predict the fluxes only in the stratosphere (a hybrid on the previous two scenarios. This limits the input to oly for variables u,v,theta, and omega, since N2 was stored only for the stratosphere_only runs. So, for feature set evaluation, only the ablation studies were perfomed: 'uvtheta', 'uvthetaw', 'uvw'. So the new table is:
+
+
+|=================================================================================================================================|
+|                      |           GLOBAL                |        STRATOSPHERE ONLY       |           STRATOSPHERE UPDATE         |
+|=================================================================================================================================|
+|u,v,theta             |    1x1: epoch 94 (0.589)        |    1x1: epoch 88 (0.2321)      |    1x1: epoch 100 (0.227)             |
+|                      |    3x3: epoch 52 (0.467)        |    3x3: epoch 93 (0.183)       |    3x3: epoch 68 (0.1597)             |
+|                      |    5x5: epoch 54 (0.4546)       |    5x5: epoch 59 (0.1774)      |    5x5:                               |
+|                      |    AUnet: epoch 110 (0.4368)    |    AUnet: epoch 119 (0.1525)   |    AUnet: epoch 131 (0.1466)          |  
+|=================================================================================================================================|
+|u,v,theta,w           |    1x1: epoch 94 (0.501)        |    1x1: epoch 100 (0.179)      |    1x1: epoch 100 (0.1700)            |
+|                      |    3x3: epoch 80 (0.3574)       |    3x3: epoch 38 (0.1356)      |    3x3: epoch 52 (0.111)              |
+|                      |    5x5: epoch 45 (0.3671)       |    5x5: epoch 35 (0.1245)      |    5x5:        N/A                    |
+|                      |    AUnet: epoch 119 (0.3669)    |    AUnet: epoch 105 (0.1285)   |    AUnet: epoch 119 (0.1189)          |
+|=========================================================================================|=======================================|
+|u,v,w                 |    1x1: epoch 100 (0.5)         |            N/A                 |    1x1: epoch 100 (0.1698)            |
+|                      |    3x3: incomplete              |            N/A                 |    3x3: epoch 100 (0.1084)            |
+|                      |            N/A                  |            N/A                 |    5x5:        N/A                    |
+|                      |    AUNet: epoch 150 (0.3665)    |            N/A                 |    AUnet: epoch 119 (0.1168)          |
+|======================|=================================|================================|=======================================|
+
+
+Now, all runs have dropout - similar level of dropouts. And it is becoming more and more clear that having omega leads to stronger convergence and better prediction.
+Also, the stratosphere_update is similar to having a source level at 200 hPa, but might learn wave generation sources at lower levels as well.
+Statosphere_update should outperform stratosphere_only
+
+
+
+
+
+TO DO LIST: 
+=============
+- (Maybe) Later, add checkpoint ID to the torch output models name as well for transfer learning training experiments
+
+*do once for global_global_uvthetaw_5x5 as well once it finishes
+- Finish all model training on ERA5 ... DONE
+- Identify optimal checkpoints and run inference on 2015 ... DONE
+- Complete inference on IFS for all models too ... DONE
+- Finish all transfer learning training on ERA5 ... SUBMITTED
+- Run inference on optimal transfer learning checkpoints ... YET TO BE DONE
+
+- JAMES runs analyze ... YET TO BE DONE
+- JAMES write (finish by november 1st week)
+
+
+
+
+
+

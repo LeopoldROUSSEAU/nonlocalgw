@@ -1,0 +1,142 @@
+NGPUS = 1
+Inference for month 1
+Inference the ANN_CNN model on global horizontal and stratosphere_only vertical model, with features uvthetaw and dropout=0.0.
+Test files = ['/scratch/users/ag4680/training_data/era5/stratosphere_1x1_inputfeatures_u_v_theta_w_N2_uw_vw_era5_training_data_hourly_2015_constant_mu_sigma_scaling01.nc']
+Model created. 
+ --- model size: 16.43 MBs,
+ --- Num params: 4.295 mil. 
+Output NC file: /scratch/users/ag4680/gw_inference_ncfiles/TLIFS_inference_TLIFS_ann_cnn_1x1_era5_ifs_global_stratosphere_only_uvthetaw_mseloss_train_epoch100_2015_1_testedonERA5.nc
+Initiating inference
+Minibatch=0, count=0, output shape=torch.Size([163840, 120])
+Inference complete
+NGPUS = 1
+Inference for month 2
+Inference the ANN_CNN model on global horizontal and stratosphere_only vertical model, with features uvthetaw and dropout=0.0.
+Test files = ['/scratch/users/ag4680/training_data/era5/stratosphere_1x1_inputfeatures_u_v_theta_w_N2_uw_vw_era5_training_data_hourly_2015_constant_mu_sigma_scaling02.nc']
+Model created. 
+ --- model size: 16.43 MBs,
+ --- Num params: 4.295 mil. 
+Output NC file: /scratch/users/ag4680/gw_inference_ncfiles/TLIFS_inference_TLIFS_ann_cnn_1x1_era5_ifs_global_stratosphere_only_uvthetaw_mseloss_train_epoch100_2015_2_testedonERA5.nc
+Initiating inference
+Minibatch=0, count=0, output shape=torch.Size([163840, 120])
+Inference complete
+NGPUS = 1
+Inference for month 3
+Inference the ANN_CNN model on global horizontal and stratosphere_only vertical model, with features uvthetaw and dropout=0.0.
+Test files = ['/scratch/users/ag4680/training_data/era5/stratosphere_1x1_inputfeatures_u_v_theta_w_N2_uw_vw_era5_training_data_hourly_2015_constant_mu_sigma_scaling03.nc']
+Model created. 
+ --- model size: 16.43 MBs,
+ --- Num params: 4.295 mil. 
+Output NC file: /scratch/users/ag4680/gw_inference_ncfiles/TLIFS_inference_TLIFS_ann_cnn_1x1_era5_ifs_global_stratosphere_only_uvthetaw_mseloss_train_epoch100_2015_3_testedonERA5.nc
+Initiating inference
+Minibatch=0, count=0, output shape=torch.Size([163840, 120])
+Inference complete
+NGPUS = 1
+Inference for month 4
+Inference the ANN_CNN model on global horizontal and stratosphere_only vertical model, with features uvthetaw and dropout=0.0.
+Test files = ['/scratch/users/ag4680/training_data/era5/stratosphere_1x1_inputfeatures_u_v_theta_w_N2_uw_vw_era5_training_data_hourly_2015_constant_mu_sigma_scaling04.nc']
+Model created. 
+ --- model size: 16.43 MBs,
+ --- Num params: 4.295 mil. 
+Output NC file: /scratch/users/ag4680/gw_inference_ncfiles/TLIFS_inference_TLIFS_ann_cnn_1x1_era5_ifs_global_stratosphere_only_uvthetaw_mseloss_train_epoch100_2015_4_testedonERA5.nc
+Initiating inference
+Minibatch=0, count=0, output shape=torch.Size([163840, 120])
+Inference complete
+NGPUS = 1
+Inference for month 5
+Inference the ANN_CNN model on global horizontal and stratosphere_only vertical model, with features uvthetaw and dropout=0.0.
+Test files = ['/scratch/users/ag4680/training_data/era5/stratosphere_1x1_inputfeatures_u_v_theta_w_N2_uw_vw_era5_training_data_hourly_2015_constant_mu_sigma_scaling05.nc']
+Model created. 
+ --- model size: 16.43 MBs,
+ --- Num params: 4.295 mil. 
+Output NC file: /scratch/users/ag4680/gw_inference_ncfiles/TLIFS_inference_TLIFS_ann_cnn_1x1_era5_ifs_global_stratosphere_only_uvthetaw_mseloss_train_epoch100_2015_5_testedonERA5.nc
+Initiating inference
+Minibatch=0, count=0, output shape=torch.Size([163840, 120])
+Inference complete
+NGPUS = 1
+Inference for month 6
+Inference the ANN_CNN model on global horizontal and stratosphere_only vertical model, with features uvthetaw and dropout=0.0.
+Test files = ['/scratch/users/ag4680/training_data/era5/stratosphere_1x1_inputfeatures_u_v_theta_w_N2_uw_vw_era5_training_data_hourly_2015_constant_mu_sigma_scaling06.nc']
+Model created. 
+ --- model size: 16.43 MBs,
+ --- Num params: 4.295 mil. 
+Output NC file: /scratch/users/ag4680/gw_inference_ncfiles/TLIFS_inference_TLIFS_ann_cnn_1x1_era5_ifs_global_stratosphere_only_uvthetaw_mseloss_train_epoch100_2015_6_testedonERA5.nc
+Initiating inference
+Minibatch=0, count=0, output shape=torch.Size([163840, 120])
+Inference complete
+NGPUS = 1
+Inference for month 7
+Inference the ANN_CNN model on global horizontal and stratosphere_only vertical model, with features uvthetaw and dropout=0.0.
+Test files = ['/scratch/users/ag4680/training_data/era5/stratosphere_1x1_inputfeatures_u_v_theta_w_N2_uw_vw_era5_training_data_hourly_2015_constant_mu_sigma_scaling07.nc']
+Model created. 
+ --- model size: 16.43 MBs,
+ --- Num params: 4.295 mil. 
+Output NC file: /scratch/users/ag4680/gw_inference_ncfiles/TLIFS_inference_TLIFS_ann_cnn_1x1_era5_ifs_global_stratosphere_only_uvthetaw_mseloss_train_epoch100_2015_7_testedonERA5.nc
+Initiating inference
+Minibatch=0, count=0, output shape=torch.Size([163840, 120])
+Inference complete
+NGPUS = 1
+Inference for month 8
+Inference the ANN_CNN model on global horizontal and stratosphere_only vertical model, with features uvthetaw and dropout=0.0.
+Test files = ['/scratch/users/ag4680/training_data/era5/stratosphere_1x1_inputfeatures_u_v_theta_w_N2_uw_vw_era5_training_data_hourly_2015_constant_mu_sigma_scaling08.nc']
+Model created. 
+ --- model size: 16.43 MBs,
+ --- Num params: 4.295 mil. 
+Output NC file: /scratch/users/ag4680/gw_inference_ncfiles/TLIFS_inference_TLIFS_ann_cnn_1x1_era5_ifs_global_stratosphere_only_uvthetaw_mseloss_train_epoch100_2015_8_testedonERA5.nc
+Initiating inference
+Minibatch=0, count=0, output shape=torch.Size([163840, 120])
+Inference complete
+NGPUS = 1
+Inference for month 9
+Inference the ANN_CNN model on global horizontal and stratosphere_only vertical model, with features uvthetaw and dropout=0.0.
+Test files = ['/scratch/users/ag4680/training_data/era5/stratosphere_1x1_inputfeatures_u_v_theta_w_N2_uw_vw_era5_training_data_hourly_2015_constant_mu_sigma_scaling09.nc']
+Model created. 
+ --- model size: 16.43 MBs,
+ --- Num params: 4.295 mil. 
+Output NC file: /scratch/users/ag4680/gw_inference_ncfiles/TLIFS_inference_TLIFS_ann_cnn_1x1_era5_ifs_global_stratosphere_only_uvthetaw_mseloss_train_epoch100_2015_9_testedonERA5.nc
+Initiating inference
+Minibatch=0, count=0, output shape=torch.Size([163840, 120])
+Inference complete
+NGPUS = 1
+Inference for month 10
+Inference the ANN_CNN model on global horizontal and stratosphere_only vertical model, with features uvthetaw and dropout=0.0.
+Test files = ['/scratch/users/ag4680/training_data/era5/stratosphere_1x1_inputfeatures_u_v_theta_w_N2_uw_vw_era5_training_data_hourly_2015_constant_mu_sigma_scaling10.nc']
+Model created. 
+ --- model size: 16.43 MBs,
+ --- Num params: 4.295 mil. 
+Output NC file: /scratch/users/ag4680/gw_inference_ncfiles/TLIFS_inference_TLIFS_ann_cnn_1x1_era5_ifs_global_stratosphere_only_uvthetaw_mseloss_train_epoch100_2015_10_testedonERA5.nc
+Initiating inference
+Minibatch=0, count=0, output shape=torch.Size([163840, 120])
+Inference complete
+NGPUS = 1
+Inference for month 11
+Inference the ANN_CNN model on global horizontal and stratosphere_only vertical model, with features uvthetaw and dropout=0.0.
+Test files = ['/scratch/users/ag4680/training_data/era5/stratosphere_1x1_inputfeatures_u_v_theta_w_N2_uw_vw_era5_training_data_hourly_2015_constant_mu_sigma_scaling11.nc']
+Model created. 
+ --- model size: 16.43 MBs,
+ --- Num params: 4.295 mil. 
+Output NC file: /scratch/users/ag4680/gw_inference_ncfiles/TLIFS_inference_TLIFS_ann_cnn_1x1_era5_ifs_global_stratosphere_only_uvthetaw_mseloss_train_epoch100_2015_11_testedonERA5.nc
+Initiating inference
+Minibatch=0, count=0, output shape=torch.Size([163840, 120])
+Inference complete
+NGPUS = 1
+Inference for month 12
+Inference the ANN_CNN model on global horizontal and stratosphere_only vertical model, with features uvthetaw and dropout=0.0.
+Test files = ['/scratch/users/ag4680/training_data/era5/stratosphere_1x1_inputfeatures_u_v_theta_w_N2_uw_vw_era5_training_data_hourly_2015_constant_mu_sigma_scaling12.nc']
+Model created. 
+ --- model size: 16.43 MBs,
+ --- Num params: 4.295 mil. 
+Output NC file: /scratch/users/ag4680/gw_inference_ncfiles/TLIFS_inference_TLIFS_ann_cnn_1x1_era5_ifs_global_stratosphere_only_uvthetaw_mseloss_train_epoch100_2015_12_testedonERA5.nc
+Initiating inference
+Minibatch=0, count=0, output shape=torch.Size([163840, 120])
+Inference complete
+NGPUS = 1
+Inference the ANN_CNN model on global horizontal and stratosphere_only vertical model, with features uvthetaw and dropout=0.0.
+Test files = ['/scratch/users/ag4680/coarsegrained_ifs_gwmf_helmholtz/NDJF/stratosphere_only_1x1_inputfeatures_u_v_theta_w_N2_uw_vw_era5_training_data_hourly_constant_mu_sigma_scaling.nc']
+Model created. 
+ --- model size: 16.43 MBs,
+ --- Num params: 4.295 mil. 
+Output NC file: /scratch/users/ag4680/gw_inference_ncfiles/TLIFS_inference_TLIFS_ann_cnn_1x1_era5_ifs_global_stratosphere_only_uvthetaw_mseloss_train_epoch100_testedonIFS.nc
+Initiating inference
+Minibatch=0, count=0, output shape=torch.Size([163840, 120])
+Inference complete

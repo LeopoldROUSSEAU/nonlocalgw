@@ -1,0 +1,4 @@
+NGPUS = 0
+Inference for month 1
+Inference the ANN_CNN model on global horizontal and stratosphere_only vertical model, with features uvtheta and dropout=0.0.
+Test files = ['/scratch/users/ag4680/training_data/era5/stratosphere_8x8_inputfeatures_u_v_theta_w_N2_uw_vw_era5_training_data_hourly_2015_constant_mu_sigma_scaling01.nc']
